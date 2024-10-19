@@ -1,0 +1,42 @@
+2024-10-06 21:32:13,907 - DataScienceLogger - INFO - [data_science_logger.py:57] - [PID:53384] [TID:8326860608] - [32m2024-10-06 21:32:13 - __main__.<module> (Line 113): Starting data preprocessing...[0m
+2024-10-06 21:32:13,909 - DataScienceLogger - INFO - [data_science_logger.py:80] - [PID:53384] [TID:8326860608] - [34m2024-10-06 21:32:13 - __main__.<module> (Line 121): DataFrame: Sample DataFrame
+Shape: (3, 3)
+Columns: ['col1', 'col2', 'col3']
+Dtypes:
+col1     int64
+col2    object
+col3      bool
+dtype: object[0m
+2024-10-06 21:32:13,909 - DataScienceLogger - INFO - [data_science_logger.py:94] - [PID:53384] [TID:8326860608] - [97m2024-10-06 21:32:13 - __main__.<module> (Line 129): Model Hyperparameters:
+{'learning_rate': 0.001, 'batch_size': 32, 'optimizer': 'Adam'}[0m
+2024-10-06 21:32:13,909 - DataScienceLogger - INFO - [data_science_logger.py:100] - [PID:53384] [TID:8326860608] - [92m2024-10-06 21:32:13 - __main__.<module> (Line 132): Epoch: 1, Loss: 0.25, Accuracy: 0.92[0m
+2024-10-06 21:32:13,909 - DataScienceLogger - INFO - [data_science_logger.py:88] - [PID:53384] [TID:8326860608] - [96m2024-10-06 21:32:13 - __main__.<module> (Line 141): Model Metrics:
+{'accuracy': 0.92, 'precision': 0.89, 'recall': 0.87, 'f1_score': 0.88}[0m
+2024-10-06 21:32:13,909 - DataScienceLogger - ERROR - [data_science_logger.py:70] - [PID:53384] [TID:8326860608] - [31m2024-10-06 21:32:13 - __main__.<module> (Line 147): An error occurred.
+Traceback (most recent call last):
+  File "/Users/jit/Documents/Project/data_science_logger.py", line 145, in <module>
+    1 / 0
+    ~~^~~
+ZeroDivisionError: division by zero
+[0m
+2024-10-07 00:43:56,986 - DataScienceLogger - INFO - [data_science_logger.py:57] - [PID:69240] [TID:8326860608] - [32m2024-10-07 00:43:56 - __main__.<module> (Line 113): Starting data preprocessing...[0m
+2024-10-07 00:43:56,989 - DataScienceLogger - INFO - [data_science_logger.py:80] - [PID:69240] [TID:8326860608] - [34m2024-10-07 00:43:56 - __main__.<module> (Line 121): DataFrame: Sample DataFrame
+Shape: (3, 3)
+Columns: ['col1', 'col2', 'col3']
+Dtypes:
+col1     int64
+col2    object
+col3      bool
+dtype: object[0m
+2024-10-07 00:43:56,989 - DataScienceLogger - INFO - [data_science_logger.py:94] - [PID:69240] [TID:8326860608] - [97m2024-10-07 00:43:56 - __main__.<module> (Line 129): Model Hyperparameters:
+{'learning_rate': 0.001, 'batch_size': 32, 'optimizer': 'Adam'}[0m
+2024-10-07 00:43:56,989 - DataScienceLogger - INFO - [data_science_logger.py:100] - [PID:69240] [TID:8326860608] - [92m2024-10-07 00:43:56 - __main__.<module> (Line 132): Epoch: 1, Loss: 0.25, Accuracy: 0.92[0m
+2024-10-07 00:43:56,989 - DataScienceLogger - INFO - [data_science_logger.py:88] - [PID:69240] [TID:8326860608] - [96m2024-10-07 00:43:56 - __main__.<module> (Line 141): Model Metrics:
+{'accuracy': 0.92, 'precision': 0.89, 'recall': 0.87, 'f1_score': 0.88}[0m
+2024-10-07 00:43:56,989 - DataScienceLogger - ERROR - [data_science_logger.py:70] - [PID:69240] [TID:8326860608] - [31m2024-10-07 00:43:56 - __main__.<module> (Line 147): An error occurred.
+Traceback (most recent call last):
+  File "/Users/jit/Documents/Project/data_science_logger.py", line 145, in <module>
+    1 / 0
+    ~~^~~
+ZeroDivisionError: division by zero
+[0m

@@ -1,0 +1,19 @@
+2024-10-06 21:27:22,146 - TestLogger - INFO - [custom_logger.py:62] - [PID:52538] [TID:8326860608] - [32m2024-10-06 21:27:22 - __main__.<module> (Line 115): This is an info message.[0m
+2024-10-06 21:27:22,146 - TestLogger - DEBUG - [custom_logger.py:66] - [PID:52538] [TID:8326860608] - [36m2024-10-06 21:27:22 - __main__.<module> (Line 116): This is a debug message.[0m
+2024-10-06 21:27:22,146 - TestLogger - WARNING - [custom_logger.py:70] - [PID:52538] [TID:8326860608] - [33m2024-10-06 21:27:22 - __main__.<module> (Line 117): This is a warning message.[0m
+2024-10-06 21:27:22,147 - TestLogger - ERROR - [custom_logger.py:75] - [PID:52538] [TID:8326860608] - [31m2024-10-06 21:27:22 - __main__.<module> (Line 122): An error occurred.
+Traceback (most recent call last):
+  File "/Users/jit/Documents/Project/custom_logger.py", line 120, in <module>
+    1 / 0  # Intentional error
+    ~~^~~
+ZeroDivisionError: division by zero
+[0m
+2024-10-06 21:27:22,147 - TestLogger - CRITICAL - [custom_logger.py:80] - [PID:52538] [TID:8326860608] - [35m2024-10-06 21:27:22 - __main__.<module> (Line 127): A critical error occurred.
+Traceback (most recent call last):
+  File "/Users/jit/Documents/Project/custom_logger.py", line 125, in <module>
+    int("invalid")  # Another error
+    ^^^^^^^^^^^^^^
+ValueError: invalid literal for int() with base 10: 'invalid'
+[0m
+2024-10-06 21:27:22,147 - TestLogger - INFO - [custom_logger.py:85] - [PID:52538] [TID:8326860608] - Start: Starting heavy process
+2024-10-06 21:27:22,147 - TestLogger - INFO - [custom_logger.py:91] - [PID:52538] [TID:8326860608] - End: Heavy process completed. | Elapsed Time: 0:00:00.000029

@@ -1,0 +1,10 @@
+2024-10-07 00:37:19,409 - INFO - /Users/jit/Documents/Project/final_logger.py 207 : 2024-10-07-00-37-19 INFO: This is an info message
+2024-10-07 00:37:19,409 - INFO - /Users/jit/Documents/Project/final_logger.py 207 : 2024-10-07-00-37-19 INFO: This is an info message
+2024-10-07 00:37:19,409 - INFO - /Users/jit/Documents/Project/final_logger.py 208 : 2024-10-07-00-37-19 DEBUG: This is a debug message
+2024-10-07 00:37:19,409 - INFO - /Users/jit/Documents/Project/final_logger.py 209 : 2024-10-07-00-37-19 WARNING: This is a warning message
+2024-10-07 00:37:19,409 - INFO - /Users/jit/Documents/Project/final_logger.py 208 : 2024-10-07-00-37-19 DEBUG: This is a debug message
+2024-10-07 00:37:19,409 - INFO - /Users/jit/Documents/Project/final_logger.py 210 : 2024-10-07-00-37-19 ERROR: This is an error message with stack trace
+2024-10-07 00:37:19,409 - INFO - /Users/jit/Documents/Project/final_logger.py 209 : 2024-10-07-00-37-19 WARNING: This is a warning message
+2024-10-07 00:37:19,409 - INFO - /Users/jit/Documents/Project/final_logger.py 210 : 2024-10-07-00-37-19 ERROR: This is an error message with stack trace
+2024-10-07 00:37:24,436 - INFO - /Users/jit/Documents/Project/final_logger.py 198 : 2024-10-07-00-37-24 INFO: Wait for: 0 min :10 secs
+2024-10-07 00:37:24,436 - INFO - /Users/jit/Documents/Project/final_logger.py 198 : 2024-10-07-00-37-24 INFO: Wait for: 0 min :10 secs
